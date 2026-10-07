@@ -6,10 +6,10 @@ Built on Amazon Bedrock Knowledge Bases with Claude.
 ## Demo
 
 **English question**
-![English demo](docs/english-demo.png)
+![English demo](docs/english-demo.jpg)
 
 **French question**
-![French demo](docs/french-demo.png)
+![French demo](docs/french-demo.jpg)
 
 ## How it works
 
