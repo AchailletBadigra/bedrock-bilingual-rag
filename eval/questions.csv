@@ -1,0 +1,21 @@
+id,lang,question,expected_keywords
+1,en,What is the active substance of Ozempic?,semaglutide
+1,fr,Quelle est la substance active d'Ozempic ?,sémaglutide
+2,en,What is Ozempic used to treat?,type 2 diabetes
+2,fr,Dans quel cas Ozempic est-il utilisé ?,diabète de type 2
+3,en,What is the starting dose of Ozempic?,0.25 mg;once weekly
+3,fr,Quelle est la dose initiale d'Ozempic ?,"0,25 mg;une fois par semaine"
+4,en,How is Ozempic administered?,subcutaneous;abdomen;thigh;upper arm
+4,fr,Comment Ozempic est-il administré ?,sous-cutanée;abdomen;cuisse;bras
+5,en,What are the very common adverse reactions of Ozempic?,nausea;diarrhoea
+5,fr,Quels sont les effets indésirables très fréquents d'Ozempic ?,nausées;diarrhée
+6,en,What should I do if I miss a dose of Ozempic?,5 days
+6,fr,Que faire en cas d'oubli d'une dose d'Ozempic ?,5 jours
+7,en,How should Ozempic be stored before first use?,refrigerator;2°C;8°C
+7,fr,Comment conserver Ozempic avant la première utilisation ?,réfrigérateur;2 °C;8 °C
+8,en,Can Ozempic be used during pregnancy?,should not be used;2 months
+8,fr,Ozempic peut-il être utilisé pendant la grossesse ?,ne doit pas être utilisé;2 mois
+9,en,Who should not take Ozempic?,hypersensitivity
+9,fr,Qui ne doit pas prendre Ozempic ?,hypersensibilité
+10,en,What is the price of Ozempic in the UK?,OUT_OF_SCOPE
+10,fr,Quel est le prix d'Ozempic en France ?,OUT_OF_SCOPE
