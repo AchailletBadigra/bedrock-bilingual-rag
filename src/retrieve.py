@@ -18,11 +18,12 @@ def get_chunks(question: str, k: int = 5) -> list[dict]:
     response = retrieve(question, k)
     chunks = []
     for r in response["retrievalResults"]:
-        chunks.append({
-            "text": r["content"]["text"],
-            "source": r["location"]["s3Location"]["uri"],
-            "page": r["metadata"].get("x-amz-bedrock-kb-document-page-number"),
-            "score": r["score"],
+            page = r["metadata"].get("x-amz-bedrock-kb-document-page-number")
+            chunks.append({
+                "text": r["content"]["text"],
+                "source": r["location"]["s3Location"]["uri"],
+                "page": int(page) if page is not None else None,
+                "score": r["score"],
         })
     return chunks
 
