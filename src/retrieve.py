@@ -30,5 +30,5 @@ if __name__ == "__main__":
     for q in ["What are Euroclear's main risks?",
               "Quels sont les principaux risques d'Euroclear ?"]:
         print(f"\n=== {q}")
-        for c in get_chunks(q):
-            print(f"{c['score']:.3f} | p.{c['page']} | {c['source'].split('/')[-1]} | {c['text'][:100]}")
+        for c in get_chunks("Gastrointestinal disorders very common nausea diarrhoea vomiting", k=5):
+            print(f"{c['score']:.3f} | p.{c['page']} | {c['source'].split('/')[-1]} | {c['text'][:200]}")

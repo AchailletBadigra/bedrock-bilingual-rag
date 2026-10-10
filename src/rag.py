@@ -6,7 +6,7 @@ from retrieve import get_chunks
 load_dotenv()
 llm = boto3.client("bedrock-runtime", region_name=os.environ["REGION"])
 
-PROMPT_TEMPLATE = """You are an assistant answering questions about annual reports.
+PROMPT_TEMPLATE = """You are an assistant answering questions about company and medical documents.
 Answer ONLY from the context below.
 Answer in the same language as the question.
 If the answer is not in the context, say you don't know.
@@ -33,11 +33,19 @@ def generate(prompt: str) -> str:
     return response["output"]["message"]["content"][0]["text"]
 
 def answer(question: str) -> str:
-    chunks = get_chunks(question)
+    chunks = get_chunks(question, k=10)
     return generate(build_prompt(question, chunks))
 
+def answer_with_context(question: str, k: int = 5) -> dict:
+    chunks = get_chunks(question, k)
+    return {
+        "answer": generate(build_prompt(question, chunks)),
+        "contexts": [c["text"] for c in chunks],
+    }
+
 if __name__ == "__main__":
-    print(answer("What are Euroclear's main risks?"))
-    print("\n---\n")
-    print(answer("Quels sont les principaux risques d'Euroclear ?"))
+       for q in ["What are the very common adverse reactions of Ozempic?",
+             "Quels sont les effets indésirables très fréquents d'Ozempic ?"]:
+        print(f"\n=== {q}\n")
+        print(answer(q))
     
