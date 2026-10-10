@@ -32,8 +32,8 @@ def generate(prompt: str) -> str:
     )
     return response["output"]["message"]["content"][0]["text"]
 
-def answer(question: str) -> str:
-    chunks = get_chunks(question, k=10)
+def answer(question: str, k: int = 5) -> str:
+    chunks = get_chunks(question, k)
     return generate(build_prompt(question, chunks))
 
 def answer_with_context(question: str, k: int = 5) -> dict:
