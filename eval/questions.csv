@@ -1,28 +1,21 @@
-id,lang,question,expected_keywords
-1,en,What is the active substance of Ozempic?,semaglutide
-1,fr,Quelle est la substance active d'Ozempic ?,sémaglutide
-2,en,What is Ozempic used to treat?,type 2 diabetes
-2,fr,Dans quel cas Ozempic est-il utilisé ?,diabète de type 2
-3,en,What is the starting dose of Ozempic?,0.25 mg;once weekly
-3,fr,Quelle est la dose initiale d'Ozempic ?,"0,25 mg;une fois par semaine"
-4,en,How is Ozempic administered?,subcutaneous;abdomen;thigh;upper arm
-4,fr,Comment Ozempic est-il administré ?,sous-cutanée;abdomen;cuisse;bras
-5,en,What are the very common adverse reactions of Ozempic?,nausea;diarrhoea
-5,fr,Quels sont les effets indésirables très fréquents d'Ozempic ?,nausées;diarrhée
-6,en,What should I do if I miss a dose of Ozempic?,5 days
-6,fr,Que faire en cas d'oubli d'une dose d'Ozempic ?,5 jours
-7,en,How should Ozempic be stored before first use?,refrigerator;2°C;8°C
-7,fr,Comment conserver Ozempic avant la première utilisation ?,réfrigérateur;2 °C;8 °C
-8,en,Can Ozempic be used during pregnancy?,should not be used;2 months
-8,fr,Ozempic peut-il être utilisé pendant la grossesse ?,ne doit pas être utilisé;2 mois
-9,en,Who should not take Ozempic?,hypersensitivity
-9,fr,Qui ne doit pas prendre Ozempic ?,hypersensibilité
-10,en,What is the price of Ozempic in the UK?,OUT_OF_SCOPE
-10,fr,Quel est le prix d'Ozempic en France ?,OUT_OF_SCOPE
-
-
 id,lang,question,expected_keywords,ground_truth
 1,en,What is the active substance of Ozempic?,semaglutide,The active substance of Ozempic is semaglutide.
 1,fr,Quelle est la substance active d'Ozempic ?,sémaglutide,La substance active d'Ozempic est le sémaglutide.
+2,en,What is Ozempic used to treat?,type 2 diabetes,"Ozempic is used to treat adults with type 2 diabetes that is not well controlled, together with diet and exercise, alone or with other diabetes medicines."
+2,fr,Dans quel cas Ozempic est-il utilisé ?,diabète de type 2,"Ozempic est utilisé chez les adultes atteints de diabète de type 2 insuffisamment contrôlé, en complément du régime alimentaire et de l'exercice, seul ou avec d'autres médicaments antidiabétiques."
+3,en,What is the starting dose of Ozempic?,0.25 mg;once weekly,"The starting dose is 0.25 mg once weekly for 4 weeks, then increased to 0.5 mg once weekly."
+3,fr,Quelle est la dose initiale d'Ozempic ?,"0,25 mg;une fois par semaine","La dose initiale est de 0,25 mg une fois par semaine pendant 4 semaines, puis 0,5 mg une fois par semaine."
+4,en,How is Ozempic administered?,subcutaneous;abdomen;thigh;upper arm,"Ozempic is given once weekly as a subcutaneous injection in the abdomen, thigh or upper arm."
+4,fr,Comment Ozempic est-il administré ?,sous-cutanée;abdomen;cuisse;bras,"Ozempic est administré une fois par semaine par injection sous-cutanée dans l'abdomen, la cuisse ou le haut du bras."
 5,en,What are the very common adverse reactions of Ozempic?,nausea;diarrhoea,"Very common adverse reactions (more than 1 in 10 people) are nausea, diarrhoea and hypoglycaemia when used with insulin or a sulfonylurea."
+5,fr,Quels sont les effets indésirables très fréquents d'Ozempic ?,nausées;diarrhée,"Les effets indésirables très fréquents (plus de 1 personne sur 10) sont les nausées, la diarrhée et l'hypoglycémie en cas d'association avec l'insuline ou un sulfamide hypoglycémiant."
+6,en,What should I do if I miss a dose of Ozempic?,5 days,"If 5 days or less have passed, inject the missed dose as soon as possible; if more than 5 days have passed, skip it and take the next dose on the usual day."
+6,fr,Que faire en cas d'oubli d'une dose d'Ozempic ?,5 jours,"Si 5 jours maximum se sont écoulés, injectez la dose dès que possible ; au-delà de 5 jours, sautez la dose et prenez la suivante le jour habituel."
+7,en,How should Ozempic be stored before first use?,refrigerator;2°C;8°C,"Before first use, store Ozempic in a refrigerator at 2°C to 8°C, do not freeze, and keep it away from the cooling element."
+7,fr,Comment conserver Ozempic avant la première utilisation ?,réfrigérateur;2 °C;8 °C,"Avant la première utilisation, conserver Ozempic au réfrigérateur entre 2 °C et 8 °C, ne pas congeler et tenir à distance de l'élément de refroidissement."
+8,en,Can Ozempic be used during pregnancy?,should not be used;2 months,Ozempic should not be used during pregnancy and should be stopped at least 2 months before a planned pregnancy.
+8,fr,Ozempic peut-il être utilisé pendant la grossesse ?,ne doit pas être utilisé;2 mois,Ozempic ne doit pas être utilisé pendant la grossesse et doit être arrêté au moins 2 mois avant une grossesse prévue.
+9,en,Who should not take Ozempic?,hypersensitivity,Ozempic must not be used by people with hypersensitivity (allergy) to semaglutide or to any of its excipients.
+9,fr,Qui ne doit pas prendre Ozempic ?,hypersensibilité,Ozempic ne doit pas être utilisé en cas d'hypersensibilité (allergie) au sémaglutide ou à l'un des excipients.
 10,en,What is the price of Ozempic in the UK?,OUT_OF_SCOPE,OUT_OF_SCOPE
+10,fr,Quel est le prix d'Ozempic en France ?,OUT_OF_SCOPE,OUT_OF_SCOPE

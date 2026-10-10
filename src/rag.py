@@ -44,8 +44,8 @@ def answer_with_context(question: str, k: int = 5) -> dict:
     }
 
 if __name__ == "__main__":
-       for q in ["What are the very common adverse reactions of Ozempic?",
-             "Quels sont les effets indésirables très fréquents d'Ozempic ?"]:
-        print(f"\n=== {q}\n")
-        print(answer(q))
-    
+        for q in ["What are the very common adverse reactions of Ozempic?",
+                        "Quels sont les effets indésirables très fréquents d'Ozempic ?"]:
+            print(f"\n=== {q}\n")
+            print(answer(q))
+                
