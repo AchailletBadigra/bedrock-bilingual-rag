@@ -19,3 +19,10 @@ id,lang,question,expected_keywords
 9,fr,Qui ne doit pas prendre Ozempic ?,hypersensibilité
 10,en,What is the price of Ozempic in the UK?,OUT_OF_SCOPE
 10,fr,Quel est le prix d'Ozempic en France ?,OUT_OF_SCOPE
+
+
+id,lang,question,expected_keywords,ground_truth
+1,en,What is the active substance of Ozempic?,semaglutide,The active substance of Ozempic is semaglutide.
+1,fr,Quelle est la substance active d'Ozempic ?,sémaglutide,La substance active d'Ozempic est le sémaglutide.
+5,en,What are the very common adverse reactions of Ozempic?,nausea;diarrhoea,"Very common adverse reactions (more than 1 in 10 people) are nausea, diarrhoea and hypoglycaemia when used with insulin or a sulfonylurea."
+10,en,What is the price of Ozempic in the UK?,OUT_OF_SCOPE,OUT_OF_SCOPE
