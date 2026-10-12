@@ -1,0 +1,171 @@
+id,lang,question,expected_keywords,ground_truth,passed,answer
+1,en,What is the active substance of Ozempic?,semaglutide,The active substance of Ozempic is semaglutide.,True,The active substance of Ozempic is **semaglutide** (sémaglutide). [ozempic-epar-product-information_fr.pdf p.104]
+1,fr,Quelle est la substance active d'Ozempic ?,sémaglutide,La substance active d'Ozempic est le sémaglutide.,True,La substance active d'Ozempic est le **sémaglutide** [ozempic-epar-product-information_fr.pdf p.74].
+2,en,What is Ozempic used to treat?,type 2 diabetes,"Ozempic is used to treat adults with type 2 diabetes that is not well controlled, together with diet and exercise, alone or with other diabetes medicines.",True,"## What Ozempic is Used to Treat
+
+Ozempic is used to treat **adults (aged 18 years and older) with type 2 diabetes mellitus (T2DM)** when diet and exercise alone are not enough [ozempic-epar-product-information_en.pdf p.74].
+
+It can be used:
+- **On its own** – when you cannot use metformin (another diabetes medicine) [ozempic-epar-product-information_en.pdf p.74]
+- **With other medicines for diabetes** – when they are not enough to control your blood sugar levels. These may be medicines you take by mouth or inject, such as insulin [ozempic-epar-product-information_en.pdf p.74]
+
+## How Ozempic Works
+
+The active substance in Ozempic is **semaglutide**, which:
+- Helps your body reduce blood sugar levels only when blood sugar is too high [ozempic-epar-product-information_en.pdf p.74]
+- Can help **prevent heart disease** in patients with T2DM [ozempic-epar-product-information_en.pdf p.74]
+- Helps **slow down deterioration of kidney function** in patients with T2DM by a mechanism beyond blood glucose lowering [ozempic-epar-product-information_en.pdf p.74]"
+2,fr,Dans quel cas Ozempic est-il utilisé ?,diabète de type 2,"Ozempic est utilisé chez les adultes atteints de diabète de type 2 insuffisamment contrôlé, en complément du régime alimentaire et de l'exercice, seul ou avec d'autres médicaments antidiabétiques.",True,"## Dans quel cas Ozempic est-il utilisé ?
+
+Ozempic est utilisé pour **traiter les adultes (âgés de 18 ans et plus) atteints de diabète de type 2 (DT2)** lorsque le régime alimentaire et l'exercice physique ne suffisent pas [ozempic-epar-product-information_fr.pdf p.74].
+
+Il peut être utilisé :
+- **Seul** – quand vous ne pouvez pas utiliser de metformine (autre médicament antidiabétique) [ozempic-epar-product-information_fr.pdf p.74]
+- **En association avec d'autres médicaments** pour traiter le diabète lorsque ceux-ci ne suffisent pas à contrôler votre taux de sucre dans le sang [ozempic-epar-product-information_fr.pdf p.74]
+
+### Bénéfices d'Ozempic :
+- Il aide votre organisme à **réduire votre taux de sucre dans le sang** uniquement quand celui-ci est trop élevé [ozempic-epar-product-information_fr.pdf p.74]
+- Il peut aider à **prévenir les maladies cardiaques** chez les patients atteints de DT2 [ozempic-epar-product-information_fr.pdf p.74]
+- Il aide à **ralentir la détérioration de la fonction rénale** chez les patients atteints de DT2 [ozempic-epar-product-information_fr.pdf p.86]"
+3,en,What is the starting dose of Ozempic?,0.25 mg;once weekly,"The starting dose is 0.25 mg once weekly for 4 weeks, then increased to 0.5 mg once weekly.",False,"Based on the context provided, the starting dose of Ozempic is **0.25 mg once per week, for four weeks** [ozempic-epar-product-information_fr.pdf p.124].
+
+After four weeks, the doctor will increase the dose to 0.5 mg once per week [ozempic-epar-product-information_fr.pdf p.124]."
+3,fr,Quelle est la dose initiale d'Ozempic ?,"0,25 mg;une fois par semaine","La dose initiale est de 0,25 mg une fois par semaine pendant 4 semaines, puis 0,5 mg une fois par semaine.",True,"La dose initiale d'Ozempic est de **0,25 mg une fois par semaine, pendant quatre semaines** [ozempic-epar-product-information_fr.pdf p.88]."
+4,en,How is Ozempic administered?,subcutaneous;abdomen;thigh;upper arm,"Ozempic is given once weekly as a subcutaneous injection in the abdomen, thigh or upper arm.",True,"## How Ozempic is Administered
+
+Ozempic is given as an **injection under the skin** (subcutaneous injection). It should **not** be injected into a vein or muscle [ozempic-epar-product-information_en.pdf p.76].
+
+### Best injection sites:
+- Front of your thighs
+- Front of your waist (abdomen)
+- Upper arm
+
+[ozempic-epar-product-information_en.pdf p.76]
+
+### When to use:
+- Once a week, on the same day each week if possible
+- You can inject at any time of day, with or without meals
+
+[ozempic-epar-product-information_fr.pdf p.125]
+
+Before using the pen for the first time, your doctor or nurse will show you how to use it [ozempic-epar-product-information_en.pdf p.76]."
+4,fr,Comment Ozempic est-il administré ?,sous-cutanée;abdomen;cuisse;bras,"Ozempic est administré une fois par semaine par injection sous-cutanée dans l'abdomen, la cuisse ou le haut du bras.",True,"## Comment Ozempic est-il administré ?
+
+Ozempic doit être administré par **injection sous la peau** (injection sous-cutanée). Il ne faut pas l'injecter directement dans une veine ou dans un muscle [ozempic-epar-product-information_fr.pdf p.77].
+
+### Meilleurs endroits pour l'injection :
+- Le dessus de la **cuisse**
+- Le **ventre** (abdomen)
+- Le **haut du bras**
+[ozempic-epar-product-information_fr.pdf p.77]
+
+### Fréquence d'administration :
+- **Une fois par semaine**, le même jour chaque semaine si possible [ozempic-epar-product-information_fr.pdf p.77]
+- L'injection peut être faite à **n'importe quel moment de la journée**, au cours ou en dehors des repas [ozempic-epar-product-information_fr.pdf p.77]
+
+### Conseils pratiques :
+- Avant la première utilisation du stylo, un médecin ou infirmier/ère montrera comment l'utiliser [ozempic-epar-product-information_fr.pdf p.77]
+- Il est recommandé de noter sur l'étui le jour de la semaine choisi ainsi que toutes les dates d'injection [ozempic-epar-product-information_fr.pdf p.77]
+- Si nécessaire, le jour d'injection peut être changé, à condition que la dernière injection ait eu lieu **au moins 3 jours auparavant** [ozempic-epar-product-information_fr.pdf p.77]"
+5,en,What are the very common adverse reactions of Ozempic?,nausea;diarrhoea,"Very common adverse reactions (more than 1 in 10 people) are nausea, diarrhoea and hypoglycaemia when used with insulin or a sulfonylurea.",False,"Based on the context provided, I don't have information about the **very common** adverse reactions of Ozempic (those affecting more than 1 in 10 people).
+
+The context only mentions:
+- **Common** side effects (up to 1 in 10 people): Complications of diabetic eye disease (retinopathy) [ozempic-epar-product-information_en.pdf p.135]
+- **Uncommon** side effects (up to 1 in 100 people): Inflamed pancreas (acute pancreatitis) [ozempic-epar-product-information_en.pdf p.135]
+- **Rare** side effects (up to 1 in 1,000 people): Severe allergic reactions (anaphylactic reactions, angioedema) [ozempic-epar-product-information_en.pdf p.135]
+- **Very rare** side effect: Non-arteritic anterior ischaemic optic neuropathy (NAION) [ozempic-epar-product-information_en.pdf p.133]
+
+The section listing ""very common"" adverse reactions is not included in the provided context."
+5,fr,Quels sont les effets indésirables très fréquents d'Ozempic ?,nausées;diarrhée,"Les effets indésirables très fréquents (plus de 1 personne sur 10) sont les nausées, la diarrhée et l'hypoglycémie en cas d'association avec l'insuline ou un sulfamide hypoglycémiant.",False,"Je ne dispose pas de cette information dans le contexte fourni.
+
+Le contexte mentionne les **effets indésirables graves fréquents** (pouvant affecter jusqu'à 1 personne sur 10), comme les complications de la maladie de l'œil liée au diabète (rétinopathie) [ozempic-epar-product-information_fr.pdf p.77, p.89, p.107, p.125], mais il ne contient pas d'information sur les effets indésirables **très fréquents** d'Ozempic."
+6,en,What should I do if I miss a dose of Ozempic?,5 days,"If 5 days or less have passed, inject the missed dose as soon as possible; if more than 5 days have passed, skip it and take the next dose on the usual day.",True,"# What to do if you miss a dose of Ozempic
+
+**If it has been 5 days or less** since you should have used Ozempic, use it as soon as you remember. Then inject your next dose as usual on your scheduled day. [ozempic-epar-product-information_en.pdf p.77]
+
+**If it has been more than 5 days** since you should have used Ozempic, skip the missed dose. Then inject your next dose as usual on your scheduled day. [ozempic-epar-product-information_en.pdf p.77]
+
+**Important:** Do not use a double dose to make up for a forgotten dose. [ozempic-epar-product-information_en.pdf p.77]"
+6,fr,Que faire en cas d'oubli d'une dose d'Ozempic ?,5 jours,"Si 5 jours maximum se sont écoulés, injectez la dose dès que possible ; au-delà de 5 jours, sautez la dose et prenez la suivante le jour habituel.",True,"## Que faire en cas d'oubli d'une dose d'Ozempic
+
+En cas d'oubli d'une injection d'Ozempic, voici la conduite à tenir :
+
+**Si 5 jours maximum se sont écoulés** depuis la date de l'injection oubliée :
+- Injectez la dose dès que vous y pensez
+- Injectez la dose suivante comme d'habitude, le jour prévu [ozempic-epar-product-information_fr.pdf p.137]
+
+**Si plus de 5 jours se sont écoulés** depuis la date de l'injection oubliée :
+- Ne prenez pas la dose manquée
+- Injectez la dose suivante comme d'habitude, le jour prévu [ozempic-epar-product-information_fr.pdf p.137]
+
+**Important** : N'utilisez jamais de dose double pour compenser la dose que vous avez oublié de prendre [ozempic-epar-product-information_fr.pdf p.107]"
+7,en,How should Ozempic be stored before first use?,refrigerator;2°C;8°C,"Before first use, store Ozempic in a refrigerator at 2°C to 8°C, do not freeze, and keep it away from the cooling element.",True,"Before first use, Ozempic should be stored as follows:
+
+- **Store in a refrigerator** at 2°C–8°C [ozempic-epar-product-information_en.pdf p.79]
+- **Do not freeze** [ozempic-epar-product-information_en.pdf p.79]
+- **Keep away from the cooling element** [ozempic-epar-product-information_en.pdf p.79]
+- **Keep the pen cap on** in order to protect from light [ozempic-epar-product-information_en.pdf p.79]"
+7,fr,Comment conserver Ozempic avant la première utilisation ?,réfrigérateur;2 °C;8 °C,"Avant la première utilisation, conserver Ozempic au réfrigérateur entre 2 °C et 8 °C, ne pas congeler et tenir à distance de l'élément de refroidissement.",True,"## Conservation d'Ozempic avant la première utilisation
+
+Avant ouverture, Ozempic doit être :
+
+- **Conservé au réfrigérateur** (entre 2 °C et 8 °C) [ozempic-epar-product-information_fr.pdf p.79]
+- **Ne pas congeler** [ozempic-epar-product-information_fr.pdf p.79]
+- **Maintenir à distance de l'élément de refroidissement** [ozempic-epar-product-information_fr.pdf p.79]
+
+Il faut également tenir ce médicament hors de la vue et de la portée des enfants [ozempic-epar-product-information_fr.pdf p.79]."
+8,en,Can Ozempic be used during pregnancy?,should not be used;2 months,Ozempic should not be used during pregnancy and should be stopped at least 2 months before a planned pregnancy.,True,"No, Ozempic should not be used during pregnancy. If you wish to become pregnant, you should discuss how to change your treatment with your doctor, as you should stop using this medicine **at least 2 months in advance** [ozempic-epar-product-information_en.pdf p.88]. 
+
+If you become pregnant while using this medicine, you should talk to your doctor right away, as your treatment will need to be changed [ozempic-epar-product-information_en.pdf p.76].
+
+Additionally, the use of contraception is recommended while using this medicine [ozempic-epar-product-information_en.pdf p.105]."
+8,fr,Ozempic peut-il être utilisé pendant la grossesse ?,ne doit pas être utilisé;2 mois,Ozempic ne doit pas être utilisé pendant la grossesse et doit être arrêté au moins 2 mois avant une grossesse prévue.,True,"## Ozempic et grossesse
+
+**Non, Ozempic ne doit pas être utilisé pendant la grossesse.**
+
+Voici les recommandations importantes :
+
+- Si vous souhaitez être enceinte, vous devez **arrêter d'utiliser ce médicament au moins 2 mois à l'avance** et en parler à votre médecin afin de modifier votre traitement [ozempic-epar-product-information_fr.pdf p.76]
+
+- Si vous êtes enceinte pendant que vous prenez ce médicament, vous devez **informer immédiatement votre médecin**, car votre traitement devra être modifié [ozempic-epar-product-information_fr.pdf p.76]
+
+De plus, concernant l'allaitement : le passage de ce médicament dans le lait maternel n'est pas établi, en conséquence, il ne faut pas utiliser ce médicament si vous allaitez [ozempic-epar-product-information_fr.pdf p.76]"
+9,en,Who should not take Ozempic?,hypersensitivity,Ozempic must not be used by people with hypersensitivity (allergy) to semaglutide or to any of its excipients.,False,"# Who Should Not Take Ozempic
+
+Based on the product information, the following people should **not use Ozempic**:
+
+## Contraindications
+
+1. **People allergic to semaglutide** or any of the other ingredients in the medicine [ozempic-epar-product-information_en.pdf p.86]
+
+2. **People who develop diabetic ketoacidosis** – a complication of diabetes characterized by:
+   - High blood sugar
+   - Breathing difficulty
+   - Confusion
+   - Excessive thirst
+   - A sweet smell to the breath
+   - A sweet or metallic taste in the mouth
+   [ozempic-epar-product-information_en.pdf p.74]
+
+## Important Warnings
+
+- **Ozempic is not insulin** and should not be used as a substitute for insulin [ozempic-epar-product-information_en.pdf p.86]
+
+- Patients who are scheduled for **surgery under anesthesia** should inform their doctor that they are taking Ozempic [ozempic-epar-product-information_en.pdf p.120]
+
+- The medicine is only approved for **adults aged 18 years and older** with type 2 diabetes mellitus [ozempic-epar-product-information_en.pdf p.86]"
+9,fr,Qui ne doit pas prendre Ozempic ?,hypersensibilité,Ozempic ne doit pas être utilisé en cas d'hypersensibilité (allergie) au sémaglutide ou à l'un des excipients.,False,"## Qui ne doit pas prendre Ozempic ?
+
+**N'utilisez jamais Ozempic :**
+- Si vous êtes **allergique au sémaglutide** ou à l'un des autres composants contenus dans ce médicament [ozempic-epar-product-information_fr.pdf p.74]
+
+**Ce médicament ne doit pas être utilisé si :**
+- Vous développez une **acidocétose diabétique** (une complication du diabète avec un taux élevé de sucre dans le sang, des difficultés à respirer, une confusion, une soif excessive, une haleine à l'odeur sucrée ou un goût sucré ou métallique en bouche) [ozempic-epar-product-information_fr.pdf p.74]
+
+**Autres restrictions :**
+- Ozempic **n'est pas une insuline** et ne doit donc pas être utilisé comme substitut de l'insuline [ozempic-epar-product-information_fr.pdf p.104]
+- Ce médicament **n'est pas recommandé chez les enfants et les adolescents âgés de moins de 18 ans** car la sécurité et l'efficacité n'ont pas encore été établies dans ce groupe de patients [ozempic-epar-product-information_fr.pdf p.105]"
+10,en,What is the price of Ozempic in the UK?,OUT_OF_SCOPE,OUT_OF_SCOPE,True,"I don't know. The context provided does not contain any information about the price of Ozempic in the UK. The documents only contain product information such as what Ozempic is, how it's used, storage instructions, pack contents, and manufacturer details."
+10,fr,Quel est le prix d'Ozempic en France ?,OUT_OF_SCOPE,OUT_OF_SCOPE,True,"Je ne dispose pas d'informations sur le prix d'Ozempic en France dans les documents fournis. Le contexte contient uniquement des informations sur la posologie et le mode d'administration du médicament, mais aucune donnée sur son prix.
+
+Pour connaître le prix d'Ozempic en France, je vous recommande de consulter votre pharmacien ou le site de l'Assurance Maladie."

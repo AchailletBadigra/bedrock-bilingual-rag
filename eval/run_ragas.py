@@ -24,9 +24,6 @@ except Exception as e:
 
 embeddings = LangchainEmbeddingsWrapper(BedrockEmbeddings(
     model_id="amazon.titan-embed-text-v2:0", region_name=REGION))
-embeddings = LangchainEmbeddingsWrapper(BedrockEmbeddings(
-    model_id="amazon.titan-embed-text-v2:0", region_name=REGION))
-
 METRICS = [Faithfulness(), ResponseRelevancy(),
            LLMContextPrecisionWithReference(), LLMContextRecall()]
 
@@ -55,7 +52,7 @@ def main(label: str = "baseline", k: int = 5) -> None:
     df.to_csv(ROOT / f"eval/ragas_{label}_k{k}.csv", index=False)
 
 if __name__ == "__main__":
-       q = "What are the very common adverse reactions of Ozempic?"
-       for i, c in enumerate(get_chunks(q, k=30), 1):
-           hit = "<<<" if "nausea" in c["text"].lower() else ""
-           print(f"{i:2} | {c['score']:.3f} | p.{c['page']} | {c['text'][:80]!r} {hit}")
+    label = sys.argv[1] if len(sys.argv) > 1 else "baseline"
+    k = int(sys.argv[2]) if len(sys.argv) > 2 else 5
+    main(label, k)
+      
