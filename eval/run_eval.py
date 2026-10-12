@@ -35,5 +35,14 @@ def main(label: str) -> None:
         w.writerows(results)
     print(f"Saved: {out_file}")
 
+def score(text: str, expected: str) -> bool:
+    text = text.lower()
+    if expected == "OUT_OF_SCOPE":
+        return any(r in text for r in REFUSALS)
+    return all(
+        any(alt.strip().lower() in text for alt in k.split("|"))
+        for k in expected.split(";")
+    )
+
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "baseline")
