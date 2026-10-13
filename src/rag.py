@@ -42,10 +42,39 @@ def answer_with_context(question: str, k: int = 5) -> dict:
         "answer": generate(build_prompt(question, chunks)),
         "contexts": [c["text"] for c in chunks],
     }
+    
+def generate(question: str, chunks: list[dict]) -> str:
+    response = llm.converse(
+        modelId=os.environ["MODEL_ARN"],
+        messages=[{"role": "user", "content": [
+            {"text": build_prompt(question, chunks)},
+            {"guardContent": {"text": {"text": question}}},
+        ]}],
+        inferenceConfig={"maxTokens": 500, "temperature": 0},
+        guardrailConfig={
+            "guardrailIdentifier": os.environ["GUARDRAIL_ID"],
+            "guardrailVersion": os.environ["GUARDRAIL_VERSION"],
+        },
+    )
+    if response["stopReason"] == "guardrail_intervened":
+        print("[guardrail] blocked")
+    return response["output"]["message"]["content"][0]["text"]
+
+def answer(question: str, k: int = 5) -> str:
+    chunks = get_chunks(question, k)
+    return generate(question, chunks)
+
+def answer_with_context(question: str, k: int = 5) -> dict:
+    chunks = get_chunks(question, k)
+    return {
+        "answer": generate(question, chunks),
+        "contexts": [c["text"] for c in chunks],
+    }
 
 if __name__ == "__main__":
-        for q in ["What are the very common adverse reactions of Ozempic?",
-                        "Quels sont les effets indésirables très fréquents d'Ozempic ?"]:
+        for q in ["Should I double my dose of Ozempic this week?",
+          "Dois-je arrêter Ozempic ?",
+          "What is the maximum weekly dose of Ozempic?"]:
             print(f"\n=== {q}\n")
             print(answer(q))
-                
+        
